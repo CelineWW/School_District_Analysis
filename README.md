@@ -6,8 +6,8 @@ compare the results, aiming to determine how these changes affected the overall 
 1. Create data frames of district summary.
 2. Create data frames of school summary.
 3. Determine the top 5 and bottom 5 performing schools, based on the overall passing rate.
-4. List the average math score for each grade level from each school.
-5. List the average reading score for each grade level from each school.
+4. List the average math scores for each grade level from each school.
+5. List the average reading scores for each grade level from each school.
 6. Calculate the scores by school spending per student, by school size, and by school type
 
 ## Resources and Tools
@@ -32,8 +32,8 @@ compare the results, aiming to determine how these changes affected the overall 
 
 - **Other changes affected:**
   - Math and reading scores by grade
-    - Original>>>> Thomas High School 9th Graders' Average Score was:  Math-83.6, Reading-83.7. 
-    - Replaced>>>> Thomas High School 9th Graders' Average Score is:  Math-NaN, Reading-NaN.
+    - Original>>>> Thomas High School 9th Graders' Average Scores:  Math-83.6, Reading-83.7. 
+    - Replaced>>>> Thomas High School 9th Graders' Average Scores:  Math-NaN, Reading-NaN.
   
   - Scores by school spending
     - Original>>>>![Scores by school spending original](https://user-images.githubusercontent.com/105877888/174548783-586b8e60-ca81-424c-b62e-1f250e463112.PNG)
@@ -48,19 +48,12 @@ compare the results, aiming to determine how these changes affected the overall 
     - Original>>>>![Scores by school type original](https://user-images.githubusercontent.com/105877888/174548911-329dc441-6850-4ee9-9566-bc04df279de1.PNG) 
     - Replaced>>>>![Scores by school type replaced](https://user-images.githubusercontent.com/105877888/174548925-ceefbe30-ae6f-41c9-9c4d-1c4a33b985e5.PNG)
 
-  
- 
-
- 
-
-  
-
-
-
-
-
-
-
 ## Summary
-
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+After reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs, school district analyses results were updated. According to analyses, there were a few changes occured: 
+  - The district summary: Updated average math score, passing math percentage, passing reading percentage, and overall passsing(both on math and reading) percentage are slightly lower than original ones.
+  - The school summary: For Thomas High School, although average math score and reading score don't show big differences, passing math percentage, passing reading percentage, and overall passing percentage dramatically dropped. School summary for other schools were not affected.
+  - School performance: Even if overall passing percentage of Thomas High School is changed from 90.948012% to 90.630324, this doesn't affect its performance relative to other schools. Either 9th graders' math and reading scroes replaced or not, Thomas High School hold the second place of school performance based on overall passing percentage. 
+  - Math and reading scores by grade: Obviously, Thomas High School 9th Graders' Average Scores were: Math-83.6, Reading-83.7. These average scores changed to NaNs. Because all the individual ninth grade student math and reading scores were replaced by NaN. 
+  - For scores by school spending, school size, and school type, no changes were observed from formatted analyses data. 
+  
+ *Notice: Since all dataframe were formatted to certain decimals. The changes of analyses results are based on current formatted data. If trace back to original data or formatted to more decimal places, there might be delicate changes been noticed.*
